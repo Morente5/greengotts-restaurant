@@ -1,2 +1,23 @@
 /* GALLERY */
 
+#gallery {
+  .owl-dots {
+    margin: 0 auto; /*for centering the dots*/
+    text-align: center;
+  }
+  .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #333;
+    margin-right: 5px;
+    display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+  }
+  .owl-dot.active {
+    background: #ffa60a;
+  }
+  img, h4 {
+    size: cover;
+    height: 100%;
+  }
+}

@@ -1,12 +1,12 @@
 $(document).ready(function() {
  
-  $(".owl-carousel").owlCarousel({
+  $('#owl-carousel').owlCarousel({
     items: 1,
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: true,
     responsive:{
         0: {
             items: 1
@@ -15,9 +15,9 @@ $(document).ready(function() {
             items: 2
         },
         992: {
-            items: 4
+            items: 3
         }
-    }
+    },
   });
  
 });

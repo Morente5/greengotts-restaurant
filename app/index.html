@@ -83,21 +83,18 @@
   <div class="container wow fadeInUp">
     <ul class="row">
       <li class="media col-lg-12 col-md-12">
-        <img class="d-flex mr-3" src="..." alt="Generic placeholder image">
         <div class="media-body">
           <h5 class="mt-0 mb-1">List-based media object</h5>
           <p class="text-muted m-b-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
         </div>
       </li>
       <li class="media my-4 col-lg-12 col-md-12">
-        <img class="d-flex mr-3" src="..." alt="Generic placeholder image">
         <div class="media-body">
           <h5 class="mt-0 mb-1">List-based media object</h5>
           <p class="text-muted m-b-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
         </div>
       </li>
       <li class="media col-lg-12 col-md-12">
-        <img class="d-flex mr-3" src="..." alt="Generic placeholder image">
         <div class="media-body">
           <h5 class="mt-0 mb-1">List-based media object</h5>
           <p class="text-muted m-b-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
@@ -110,42 +107,22 @@
 <section id="gallery" class="bg-alt">
   <div class="container">
     <h1>Gallery</h1>
-    <div class="owl-carousel owl-theme">
-      <div class="item">
-        <img src="http://www.jqueryscript.net/demo/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/demos/assets/owl1.jpg" alt="Owl Image">
-      </div>
-      <div class="item">
-        <img src="http://www.jqueryscript.net/demo/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/demos/assets/owl2.jpg" alt="Owl Image">
-      </div>
-      <div class="item">
-        <img src="http://www.jqueryscript.net/demo/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/demos/assets/owl3.jpg" alt="Owl Image">
-      </div>
-      <div class="item">
-        <img src="http://www.jqueryscript.net/demo/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/demos/assets/owl4.jpg" alt="Owl Image">
-      </div>
-      <div class="item">
-        <h4>5</h4>
-      </div>
-      <div class="item">
-        <h4>6</h4>
-      </div>
-      <div class="item">
-        <h4>7</h4>
-      </div>
-      <div class="item">
+    <div id="owl-carousel" class="owl-carousel owl-theme">
+        <img src="images/gallery/gallery1.jpg" alt="Owl Image">
+        <img src="images/gallery/gallery2.jpg" alt="Owl Image">
+        <img src="images/gallery/gallery3.jpg" alt="Owl Image">
+        <img src="images/gallery/gallery4.jpg" alt="Owl Image">
+        <img src="images/gallery/gallery5.jpg" alt="Owl Image">
+        <img src="images/gallery/gallery6.jpg" alt="Owl Image">
+        <img src="images/gallery/gallery7.jpg" alt="Owl Image"> 
         <h4>8</h4>
-      </div>
-      <div class="item">
         <h4>9</h4>
-      </div>
-      <div class="item">
         <h4>10</h4>
-      </div>
-      <div class="item">
         <h4>11</h4>
-      </div>
-      <div class="item">
         <h4>12</h4>
+    </div>
+    <div class="owl-controlls" style="">
+      <div class="owl-dots">
       </div>
     </div>
   </div>
@@ -621,15 +598,27 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
-        <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
+        <h2 class="margin-top-0 wow fadeIn">Book a table</h2>
         <hr class="primary">
-        <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
+        <p>Please note, sending an enquiry does not confirm a table booking, our sales team will be in contact between 1-2 working days in response to your request.</p>
       </div>
       <div class="col-lg-10 offset-lg-1 text-center">
         <form class="contact-form row">
           <div class="col-md-4">
             <label></label>
             <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="col-md-4">
+            <label></label>
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+          <div class="col-md-4">
+            <label></label>
+            <input type="text" class="form-control" placeholder="Phone">
+          </div>
+          <div class="col-md-4">
+            <label></label>
+            <input type="datetime-local" class="form-control" placeholder="Name" value="<?php echo date("Y-m-d");?>">
           </div>
           <div class="col-md-4">
             <label></label>
