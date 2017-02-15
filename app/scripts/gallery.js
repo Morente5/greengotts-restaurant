@@ -1,29 +1,5 @@
-$(document).ready(function() {
- 
-  $('#owl-carousel').owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    autoplayHoverPause: true,
-    responsive:{
-      0: {
-          items: 1
-      },
-      744: {
-          items: 2
-      },
-      992: {
-          items: 3
-      }
-    },
-  });
-
-  $('#main-title').parallax({imageSrc: 'images/bg/bg-header.jpg'});
-  updateSize();
-});
-
+// Set equal height to gallery images by setting negative margins on
+// top and bottom of them equal (thisHeight - minHeight) / 2
 function updateSize(){
   var minHeight = parseInt($('.owl-item').eq(0).css('height'));
   $('.owl-item').each(function () {
@@ -41,3 +17,25 @@ function updateSize(){
     }
   });
 }
+
+$('#owl-carousel').owlCarousel({
+  items: 1,
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  autoplayTimeout: 4000,
+  autoplayHoverPause: true,
+  responsive:{
+    0: {
+        items: 1
+    },
+    744: {
+        items: 2
+    },
+    992: {
+        items: 3
+    }
+  },
+});
+
+setTimeout(updateSize, 2000);
