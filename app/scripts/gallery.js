@@ -20,8 +20,8 @@ $(document).ready(function() {
     },
   });
 
+  $('#main-title').parallax({imageSrc: '../images/bg/bg-header.jpg'});
   updateSize();
- 
 });
 
 function updateSize(){
