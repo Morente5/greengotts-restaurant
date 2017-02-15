@@ -1,3 +1,5 @@
+@import "colors";
+
 /* NAVBAR */
 
 .navbar {
@@ -9,7 +11,10 @@
 }
 
 .navbar-brand {
-  color: #007FFF;
+  font-family: 'Hugs and Kisses';
+  line-height: .6em!important;
+  font-size: 2em;
+  color: $dark-green;
   padding: 1px;
   line-height: 1.90em;
   -webkit-transition: padding .2s ease-in;
@@ -17,7 +22,7 @@
   transition: padding .2s ease-in;
   float: none;
   &:hover, &:focus {
-    color: #007FFF;
+    color: $dark-green;
   }
 }
 
@@ -40,14 +45,14 @@
       text-transform: uppercase;
     }
     &:hover, &:focus:hover {
-      color: #007FFF;
+      color: $dark-green;
     }
   }
   .nav-link.active {
-    color: #007FFF !important;
+    color: $dark-green !important;
     background-color: transparent;
     &:focus {
-      color: #007FFF !important;
+      color: $dark-green !important;
       background-color: transparent;
     }
   }
@@ -70,8 +75,8 @@
     background-color: #fff;
     min-height: 60px;
   }
-  .navbar-brand {
-    color: #007FFF;
+  .navbar-brand { 
+    color: $dark-green;
     float: left;
     padding-left: 1px;
   }

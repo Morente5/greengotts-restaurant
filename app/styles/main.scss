@@ -3,13 +3,18 @@
 // endbower
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@font-face {
+    font-family: "Hugs and Kisses";
+    src: url("../fonts/Hugs and Kisses.ttf") format("truetype");
+}
 
 /* IMPORT STYLES FILES */
 @import "navbar-style",
         "header-style",
         "opinions-style",
         "gallery-style",
-        "ourmenu-style";
+        "ourmenu-style",
+        "_colors";
 
 html {
   width: 100%;
@@ -29,7 +34,6 @@ body {
   }
 }
 
-
 hr {
   max-width: 120px;
   border-width: 3px;
@@ -41,7 +45,7 @@ hr {
     opacity: 1;
   }
   &.primary {
-    border-color: #007FFF;
+    border-color: $dark-green;
     opacity: 1;
   }
 }
@@ -78,7 +82,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #007FFF;
+  background-color: $light-green;
 }
 
 .bg-alt {
@@ -102,11 +106,12 @@ p {
 }
 
 .text-primary {
-  color: #007FFF;
+  color: $dark-green!important;
 }
 
 section {
   padding: 70px 0;
+  background-color: $light-green;
 }
 
 aside {

@@ -1,3 +1,6 @@
+@import "_colors";
+
+
 // About
 
 .ourmenu {
@@ -9,10 +12,11 @@
     bottom: 0;
     position: absolute;
     content: "";
-    width: 2px;
-    background-color: #f1f1f1;
+    width: 7px;
+    background-color: $green;
     left: 40px;
-    margin-left: -1.5px;
+    margin-left: -3.5px;
+    margin-top: 50px;
   }
   > li {
     margin-bottom: 50px;
@@ -20,6 +24,8 @@
     min-height: 50px;
     &:before,
     &:after {
+      margin-bottom: 50px;
+      margin-top: 50px;
       content: " ";
       display: table;
     }
@@ -52,10 +58,10 @@
       height: 150px;
       position: absolute;
       z-index: 100;
-      background-color: black;  // $theme-primary
+      background-color: $green;  // $theme-primary
       color: white;
       border-radius: 2px;
-      border: 7px solid #f1f1f1;
+      border: 7px solid $green;
       text-align: center;
       h4 {
         font-size: 10px;

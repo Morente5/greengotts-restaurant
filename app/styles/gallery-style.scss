@@ -1,8 +1,10 @@
+@import "_colors";
+
 /* GALLERY */
 
 #gallery {
   h1 {
-    margin-bottom: 30px !important;
+    margin-bottom: 30px!important;
   }
   
   .owl-carousel .owl-item img {
@@ -20,11 +22,11 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background: #333;
+    background: $green;
     margin-right: 5px;
     display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
   }
   .owl-dot.active {
-    background: #ffa60a;
+    background: $sky-blue;
   }
 }
