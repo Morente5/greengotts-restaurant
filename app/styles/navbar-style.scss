@@ -21,6 +21,8 @@
   -moz-transition: padding .2s ease-in;
   transition: padding .2s ease-in;
   float: none;
+  padding-right: 10px;
+  margin-bottom: 7px;
   &:hover, &:focus {
     color: $dark-green;
   }
@@ -37,6 +39,7 @@
 .navbar .navbar-nav {
   > li > a {
     font-size: 12px;
+    letter-spacing: 1.1px;
     color: #001A33;
     text-transform: uppercase;
     &:focus {
@@ -49,10 +52,10 @@
     }
   }
   .nav-link.active {
-    color: $dark-green !important;
+    color: $dark-green;
     background-color: transparent;
     &:focus {
-      color: $dark-green !important;
+      color: $dark-green;
       background-color: transparent;
     }
   }
@@ -70,34 +73,7 @@
 }
 
 @media (min-width: 48em) {   // > 768 px / MD-LG-XL
-  .navbar {
-    border-color: transparent;
-    background-color: #fff;
-    min-height: 60px;
-  }
-  .navbar-brand { 
-    color: $dark-green;
-    float: left;
-    padding-left: 1px;
-  }
-  .navbar {
-    .navbar-brand {
-      &:hover, &:focus {
-        color: #001A33;
-      }
-    }
-    .navbar-nav > li > a {
-      color: #001A33;
-      letter-spacing: 1.1px;
-      &:focus {
-        color: #001A33;
-        letter-spacing: 1.1px;
-      }
-      &:hover, &:focus:hover {
-        color: #001A33;
-      }
-    }
-  }
+
   #topNav {
     background-color: #fff;
   }

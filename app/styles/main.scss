@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @font-face {
     font-family: "Hugs and Kisses";
-    src: url("../fonts/Hugs and Kisses.ttf") format("truetype");
+    src: url("../fonts/Hugs-and-Kisses.ttf") format("truetype");
 }
 
 /* IMPORT STYLES FILES */
@@ -51,7 +51,7 @@ hr {
 }
 
 a {
-  color: #007FFF;
+  color: $sky-blue;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -82,7 +82,7 @@ p {
 }
 
 .bg-primary {
-  background-color: $light-green;
+  background-color: $super-light-green;
 }
 
 .bg-alt {
@@ -111,7 +111,7 @@ p {
 
 section {
   padding: 70px 0;
-  background-color: $light-green;
+  background-color: $super-light-green;
 }
 
 aside {
@@ -141,21 +141,21 @@ textarea {
 
 .btn.btn-primary {
   background-color: transparent;
-  border: 1px solid #007FFF;
+  border: 1px solid $sky-blue;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
-  color: #007FFF;
+  color: $sky-blue;
   &:hover {
     opacity: 0.7;
   }
 }
 
 .btn-primary-outline {
-  border-color: #007FFF;
-  color: #007FFF;
+  border-color: $sky-blue;
+  color: $sky-blue;
   &:hover {
-    background-color: #007FFF;
+    background-color: $sky-blue;
   }
 }
 
