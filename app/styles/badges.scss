@@ -1,0 +1,17 @@
+.badge {
+	width: 20px;
+	height: 20px;
+	padding: 3px 5px;
+	vertical-align: top;
+	img {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+
+//  <span class="badge badge-pill badge-danger"><img src="images/badges/spicy.png"></span>
+//  <span class="badge badge-pill badge-warning"><img src="images/badges/cheese.png"></span>
+//  <span class="badge badge-pill badge-info"><img src="images/badges/milkeggs.png"></span>
+//  <span class="badge badge-pill badge-success"><img src="images/badges/vegan.png"></span>
