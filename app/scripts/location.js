@@ -13,7 +13,7 @@ function initMap(lat, lng) {
         position: initPosition,
         title: '#' + coords.length,
         map: map,
-        icon: 'resources/marker.png',
+        icon: 'images/badges/marker.png',
         animation: google.maps.Animation.DROP
     });
 }
