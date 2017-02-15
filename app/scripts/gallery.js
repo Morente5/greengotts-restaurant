@@ -38,4 +38,4 @@ $('#owl-carousel').owlCarousel({
   },
 });
 
-setTimeout(updateSize, 100);
+setTimeout(updateSize, 500);
