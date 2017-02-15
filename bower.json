@@ -4,7 +4,8 @@
   "dependencies": {
     "bootstrap": "~4.0.0-alpha.6",
     "components-font-awesome": "^4.7.0",
-    "owl.carousel": "^2.2.0"
+    "owl.carousel": "^2.2.0",
+    "parallax.js": "^1.4.2"
   },
   "overrides": {
     "bootstrap": {
