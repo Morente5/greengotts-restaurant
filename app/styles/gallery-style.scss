@@ -1,8 +1,19 @@
 /* GALLERY */
 
 #gallery {
+  h1 {
+    margin-bottom: 30px !important;
+  }
+  
+  .owl-carousel .owl-item img {
+    height:auto;
+    width:100%;
+    display: block;
+  }
+
+  
   .owl-dots {
-    margin: 0 auto; /*for centering the dots*/
+    margin-top: 30px; /*for centering the dots*/
     text-align: center;
   }
   .owl-dot {
@@ -15,9 +26,5 @@
   }
   .owl-dot.active {
     background: #ffa60a;
-  }
-  img, h4 {
-    size: cover;
-    height: 100%;
   }
 }
