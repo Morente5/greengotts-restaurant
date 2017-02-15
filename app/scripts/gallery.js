@@ -20,7 +20,7 @@ $(document).ready(function() {
     },
   });
 
-  $('#main-title').parallax({imageSrc: '../images/bg/bg-header.jpg'});
+  $('#main-title').parallax({imageSrc: 'images/bg/bg-header.jpg'});
   updateSize();
 });
 
