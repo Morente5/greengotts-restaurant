@@ -1,5 +1,5 @@
 function initMap(lat, lng) {
-    const divMap = document.getElementById("map");
+    const divMap = document.getElementById('map');
     const initPosition = new google.maps.LatLng(28.541455, -81.375923);
     const coords = [initPosition];
     
