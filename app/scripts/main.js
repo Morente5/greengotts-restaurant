@@ -21,3 +21,5 @@ $('#collapsingNavbar li a').click(function() {
 $('#galleryModal').on('show.bs.modal', function (e) {
    $('#galleryImage').attr('src',$(e.relatedTarget).data('src'));
 });
+
+initMap(37.171204, -3.598550);

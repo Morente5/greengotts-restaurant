@@ -1,4 +1,5 @@
-@import "colors";
+@import "_colors";
+@import "_fonts";
 
 /* NAVBAR */
 
@@ -22,7 +23,6 @@
   transition: padding .2s ease-in;
   float: none;
   padding-right: 10px;
-  margin-bottom: 7px;
   &:hover, &:focus {
     color: $dark-green;
   }

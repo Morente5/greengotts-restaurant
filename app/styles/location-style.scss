@@ -1,3 +1,36 @@
+@import "_fonts";
+@import "_colors";
+
+
+#location {
+	.address {
+		margin-bottom:25px;
+	}
+	.content {
+		h2 {
+			font-family: $hugs!important;
+			font-size: 3em;
+			color: $dark-green;
+		}
+		p {
+			margin-bottom: 10px;
+		}
+	}
+	i.fa-2x {
+		margin: 20px 20px 20px 0px;
+
+	}
+	.social i {
+		color: #9CB7C0;
+		&:hover {
+			color: black}
+		}
+}
+
+#map {
+  height: 400px;
+}
+
 /* HIDE GOOGLE MAPS TEXT */
 .gmnoprint:not(.gm-bundled-control) {
     display: none;

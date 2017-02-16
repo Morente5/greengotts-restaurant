@@ -36,7 +36,7 @@
   <div class="header-content">
     <div class="inner">
       <h1>Greengotts</h1>
-      <h5 class="wow fadeIn text-normal wow fadeIn">Be HAPPY, taking care of yourself</h5>
+      <h5 class="wow fadeIn text-normal wow fadeIn">Healthy food, positive mood</h5>
       <a href="#book" class="btn btn-primary-outline page-scroll btn-xl m-t-3">Book a table now</a>
     </div>
   </div>
@@ -60,7 +60,7 @@
           <a class="nav-link page-scroll" href="#ourmenu">Our Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#specialmenus">Special Menus</a>
+          <a class="nav-link page-scroll" href="#specialmenus">Specials</a>
         </li>
         <li class="nav-item">
           <a class="nav-link page-scroll" href="#location">Location</a>
@@ -332,9 +332,9 @@
         <hr class="primary">
       </div>
     </div>
-    <div class="row">
+    <div class="row page-scroll wow fadeInLeft">
       <div class="col-lg-8 offset-lg-2 text-center">
-        <p>Please note, sending an enquiry does not confirm a table booking, our sales team will be in contact between 1-2 working days in response to your request.</p>
+        <p>Please note, sending an enquiry does not confirm a table booking. Our sales team will contact you within 24 hours in response to your request.</p>
       </div>
       <div class="col-lg-10 offset-lg-1 text-center">
         <form class="contact-form row">
@@ -350,13 +350,17 @@
             <label></label>
             <input type="tel" class="form-control" placeholder="Phone">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <label></label>
             <input type="date" id="input-date" class="form-control" placeholder="Date" value="">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <label></label>
             <input type="time" id="input-time" class="form-control" placeholder="Time" step=1800 min=10:00 max=22:00>
+          </div>
+          <div class="col-md-4">
+            <label></label>
+            <input type="number" class="form-control" placeholder="Diners" step=1 min=1 max=15>
           </div>
           <div class="col-md-12">
             <label></label>
@@ -364,7 +368,7 @@
           </div>
           <div class="col-md-4 offset-md-4">
             <label></label>
-            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Book now <i class="ion-android-arrow-forward"></i></button>
+            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Book now</button>
           </div>
         </form>
       </div>
@@ -380,11 +384,28 @@
         <hr class="primary">
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-8 text-center">
+    <div class="content row">
+      <div class="col-xs-12 col-lg-6 page-scroll wow fadeInLeft text-center text-lg-left">
+        <h2>Greengotts</h2>
+        <div class="address font-weight-bold">
+          <p>26 Magnolia Avenue S.</p>
+          <p>Orlando</p>
+          <p>FL 32801, EE. UU</p>
+        </div>
+        <div>
+          <p><i class="fa fa-phone" aria-hidden="true"></i> 202 555 0191</p>
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> contact@greengotts.com</p>
+          <p><i class="fa fa-clock-o" aria-hidden="true"></i> From 9am to 10pm Every Day</p>
+        </div>
+        <div class="social">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-2x fa-tripadvisor" aria-hidden="true"></i>
+          <i class="fa fa-2x fa-foursquare" aria-hidden="true"></i>
+        </div>
       </div>
-      <div id="map" class="col-lg-4 text-center">
-
+      <div id="map" class="col-xs-12 col-lg-6 page-scroll wow fadeInRight">
       </div>
     </div>
   </div>
@@ -394,12 +415,14 @@
   <div class="container">
     <div class="row">
       <div class="col-6 col-sm-3">
-        <h6 class="text-uppercase">Bootstrap 4</h6>
+        <h6 class="text-uppercase">Greengotts</h6>
         <ul class="list-unstyled">
-          <li><a href="https://medium.com/@bootply/bootstrap-4-whats-new-visual-guide-c84dd81d8387" target="ext">What's New</a></li>
-          <li><a href="http://codeply.com/tagged/bootstrap-4" target="ext">Examples</a></li>
-          <li><a href="http://getbootstrap.com" target="ext">Official</a></li>
-          <li><a href="http://www.codeply.com/go/p/bootstrap_4.0.alpha" target="ext">Playground</a></li>
+          <li><a class="page-scroll" href="#opinions">Opinions</a></li>
+          <li><a class="page-scroll" href="#gallery">Gallery</a></li>
+          <li><a class="page-scroll" href="#ourmenu">Our Menu</a></li>
+          <li><a class="page-scroll" href="#specialmenus">Special Menus</a></li>
+          <li><a class="page-scroll" href="#location">Location</a></li>
+          <li><a class="page-scroll" href="#book">Book Now</a></li>
         </ul>
       </div>
       <div class="col-6 col-sm-3 column">
@@ -488,7 +511,7 @@
   e=o.createElement(i);r=o.getElementsByTagName(i)[0];
   e.src='https://www.google-analytics.com/analytics.js';
   r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');
+  ga('create','UA-90735253-2');ga('send','pageview');
 </script>
 
 <!-- build:js scripts/vendor.js -->
@@ -516,17 +539,16 @@
 <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
 <!-- endbuild -->
 
-<script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxJO6D5ru10c6oFcqOl0V8F099ClHRtdI">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxJO6D5ru10c6oFcqOl0V8F099ClHRtdI">
 </script>
-
-<!-- build:js scripts/main.js -->
-<script src="scripts/main.js"></script>
 <script src="scripts/parallax.js"></script>
 <script src="scripts/gallery.js"></script>
 <script src="scripts/img-modal.js"></script>
 <script src="scripts/form.js"></script>
 <script src="scripts/location.js"></script>
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
 <!-- endbuild -->
 </body>
 

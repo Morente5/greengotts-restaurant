@@ -1,3 +1,5 @@
+@import "_fonts";
+
 /* HEADER */
 
 header {
@@ -18,7 +20,7 @@ header {
     z-index: 2;
     .inner {
       h1 {
-        font-family: 'Hugs and Kisses';
+        font-family: $hugs;
         font-size: 6em!important;
         color: white;
         margin-top: 20px;
