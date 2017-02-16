@@ -15,7 +15,7 @@
 
   
   .owl-dots {
-    margin-top: 30px; /*for centering the dots*/
+    margin-top: 30px;  // To center the dots
     text-align: center;
   }
   .owl-dot {
@@ -24,7 +24,7 @@
     border-radius: 100%;
     background: $green;
     margin-right: 5px;
-    display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+    display: inline-block;  // To make them horizontal
   }
   .owl-dot.active {
     background: $sky-blue;

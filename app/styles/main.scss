@@ -8,10 +8,13 @@
         "opinions-style",
         "gallery-style",
         "ourmenu-style",
+        "specialmenus-style",
         "location-style",
         "badges",
         "_colors",
         "_fonts";
+
+// Bootstrap classes customization and more properties
 
 html {
   width: 100%;
@@ -67,6 +70,8 @@ p {
 
 h2, h4 {
   padding-bottom: 15px;
+  color: $sky-blue!important;
+  font-family: $montserrat!important;
 }
 
 .text-normal {
@@ -122,9 +127,11 @@ aside {
 footer {
   padding: 45px;
   padding-top: 40px;
-  background-color: #e0e0e3;
   h4, h6 {
     color: #fff;
+  }
+  .copyright {
+    color: white!important;
   }
 }
 

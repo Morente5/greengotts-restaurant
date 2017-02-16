@@ -1,0 +1,20 @@
+@import "_colors";
+
+.card-deck {
+  .card {
+    margin: 15px 15px;
+    flex-basis: 100%; 
+    border: 1px solid $green;
+    border-radius: 0;
+  }
+}
+@media (min-width: 48em) { 
+  .card-deck .card {
+    flex-basis: 40%;
+  } 
+}
+@media (min-width: 62em) { 
+  .card-deck .card {
+    flex-basis: 20%;
+  } 
+}

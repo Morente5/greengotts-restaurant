@@ -1,3 +1,5 @@
+// Bootstrap badges to display food properties
+
 .badge {
 	width: 20px;
 	height: 20px;
@@ -11,7 +13,8 @@
 	}
 }
 
-//  <span class="badge badge-pill badge-danger"><img src="images/badges/spicy.png"></span>
-//  <span class="badge badge-pill badge-warning"><img src="images/badges/cheese.png"></span>
-//  <span class="badge badge-pill badge-info"><img src="images/badges/milkeggs.png"></span>
-//  <span class="badge badge-pill badge-success"><img src="images/badges/vegan.png"></span>
+//  This is how we can use them
+//  SPICY <span class="badge badge-pill badge-danger"><img src="images/badges/spicy.png"></span>
+//  CHEESE <span class="badge badge-pill badge-warning"><img src="images/badges/cheese.png"></span>
+//  MIKEGGS <span class="badge badge-pill badge-info"><img src="images/badges/milkeggs.png"></span>
+//  VEGAN <span class="badge badge-pill badge-success"><img src="images/badges/vegan.png"></span>

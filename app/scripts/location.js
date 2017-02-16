@@ -9,92 +9,92 @@ function initMap(lat, lng) {
         disableDefaultUI: true,
         styles: [  // Custom map Theme :)
             {
-                "featureType": "water",
-                "stylers": [
+                'featureType': 'water',
+                'stylers': [
                     {
-                        "visibility": "on"
+                        'visibility': 'on'
                     },
                     {
-                        "color": "#b5cbe4"
+                        'color': '#b5cbe4'
                     }
                 ]
             },
             {
-                "featureType": "landscape",
-                "stylers": [
+                'featureType': 'landscape',
+                'stylers': [
                     {
-                        "color": "#efefef"
+                        'color': '#efefef'
                     }
                 ]
             },
             {
-                "featureType": "road.highway",
-                "elementType": "geometry",
-                "stylers": [
+                'featureType': 'road.highway',
+                'elementType': 'geometry',
+                'stylers': [
                     {
-                        "color": "#83a5b0"
+                        'color': '#83a5b0'
                     }
                 ]
             },
             {
-                "featureType": "road.arterial",
-                "elementType": "geometry",
-                "stylers": [
+                'featureType': 'road.arterial',
+                'elementType': 'geometry',
+                'stylers': [
                     {
-                        "color": "#bdcdd3"
+                        'color': '#bdcdd3'
                     }
                 ]
             },
             {
-                "featureType": "road.local",
-                "elementType": "geometry",
-                "stylers": [
+                'featureType': 'road.local',
+                'elementType': 'geometry',
+                'stylers': [
                     {
-                        "color": "#ffffff"
+                        'color': '#ffffff'
                     }
                 ]
             },
             {
-                "featureType": "poi.park",
-                "elementType": "geometry",
-                "stylers": [
+                'featureType': 'poi.park',
+                'elementType': 'geometry',
+                'stylers': [
                     {
-                        "color": "#e3eed3"
+                        'color': '#e3eed3'
                     }
                 ]
             },
             {
-                "featureType": "administrative",
-                "stylers": [
+                'featureType': 'administrative',
+                'stylers': [
                     {
-                        "visibility": "on"
+                        'visibility': 'on'
                     },
                     {
-                        "lightness": 33
+                        'lightness': 33
                     }
                 ]
             },
             {
-                "featureType": "road"
+                'featureType': 'road'
             },
             {
-                "featureType": "poi.park",
-                "elementType": "labels",
-                "stylers": [
+                'featureType': 'poi.park',
+                'elementType': 'labels',
+                'stylers': [
                     {
-                        "visibility": "on"
+                        'visibility': 'on'
                     },
                     {
-                        "lightness": 20
+                        'lightness': 20
                     }
                 ]
             },
             {},
             {
-                "featureType": "road",
-                "stylers": [
+                'featureType': 'road',
+                'stylers': [
                     {
-                        "lightness": 20
+                        'lightness': 20
                     }
                 ]
             }
