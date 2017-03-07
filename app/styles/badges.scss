@@ -1,8 +1,8 @@
 // Bootstrap badges to display food properties
+@import "_mixins";
 
 .badge {
-	width: 20px;
-	height: 20px;
+	@include size(20px);
 	padding: 3px 5px;
 	vertical-align: top;
 	img {

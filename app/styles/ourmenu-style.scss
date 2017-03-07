@@ -1,4 +1,5 @@
 @import "_colors";
+@import "_mixins";
 
 // OUR MENU
 
@@ -52,8 +53,7 @@
     .ourmenu-image {
       left: 0;
       margin-left: 0;
-      width: 150px;
-      height: 150px;
+      @include size(150px);
       position: absolute;
       z-index: 100;
       background-color: $green;  // $theme-primary
@@ -120,8 +120,7 @@
         text-align: right;
       }
       .ourmenu-image {
-        width: 160px;
-        height: 160px;
+        @include size(160px);
         left: 50%;
         margin-left: -80px;
         h4 {
@@ -147,8 +146,7 @@
         padding: 0 50px 20px;
       }
       .ourmenu-image {
-        width: 200px;
-        height: 200px;
+        @include size(200px);
         margin-left: -100px;
         h4 {
           font-size: 18px;
@@ -171,8 +169,7 @@
         padding: 0 50px 20px 100px;
       }
       .ourmenu-image {
-        width: 240px;
-        height: 240px;
+        @include size(240px);
         margin-left: -120px;
         h4 {
           margin-top: 40px;
