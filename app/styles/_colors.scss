@@ -1,6 +1,12 @@
+@import "compass/utilities/color/contrast";
+
 $sky-blue: #A7C5DF;
 $light-sky-blue: #E3F4FC;
 $super-light-green: #F2F4F0;
 $light-green: #EAF0E2;
 $green: #B4D095;
 $dark-green: #6FA819;
+
+// COMPASS
+$contrast-blue: contrast-color($sky-blue, $dark-green, $light-sky-blue);
+$contrast-green: contrast-color($green, $dark-green, $light-green);
